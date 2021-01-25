@@ -53,7 +53,7 @@ export default {
         },
     },
     mounted() {
-        const src = 'http://172.16.1.112:8080/hls/test.m3u8'
+        const src = 'http://172.16.1.115:8080/hls/test.m3u8'
         this.playVideo(src)
     }
 }
