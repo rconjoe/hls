@@ -53,7 +53,7 @@ export default {
         },
     },
     mounted() {
-        const src = 'http://172.16.1.112:8080/hls/test.m3u8'
+        const src = 'http://rcjhls.hopto.org:1337/hls/test.m3u8'
         this.playVideo(src)
     }
 }
